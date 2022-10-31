@@ -28,7 +28,7 @@ void base_convert(int a, int f, int t) {
 }
 
 int main(int argc, char *argv[]) {
-    if(argc < 3) {
+    if (argc < 3) {
         printf("Usage: %s [number] [base] [base]\n", argv[0]);
         return 1;
     }
