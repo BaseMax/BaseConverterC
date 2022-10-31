@@ -26,3 +26,19 @@ void base_convert(int a, int f, int t) {
     }
     printf("\n");
 }
+
+int main(int argc, char *argv[]) {
+    if(argc < 3) {
+        printf("Usage: %s [number] [base] [base]\n", argv[0]);
+        return 1;
+    }
+
+    int number = atoi(argv[1]);
+    int base = atoi(argv[2]);
+    int base2 = atoi(argv[3]);
+
+    printf("Convert %d from base %d to base %d\n", number, base, base2);
+    convert(number, base, base2);
+
+    return 0;
+}
