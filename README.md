@@ -1,2 +1,3 @@
-# BaseConverterC
-A Super-Fast C-Program for converting numbers from one base to another base.
+# BaseConverter C
+
+A Super-Fast **C-Program** for converting numbers from _one base_ to _another base_.
