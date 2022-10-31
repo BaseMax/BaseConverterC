@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Convert number a from base f to base t
+// Convert number `a` from base `f` to base `t`
 void base_convert(int a, int f, int t) {
     int i = 0;
     int b[100];
@@ -34,11 +34,11 @@ int main(int argc, char *argv[]) {
     }
 
     int number = atoi(argv[1]);
-    int base = atoi(argv[2]);
+    int base1 = atoi(argv[2]);
     int base2 = atoi(argv[3]);
 
-    printf("Convert %d from base %d to base %d\n", number, base, base2);
-    convert(number, base, base2);
+    printf("Convert %d from base %d to base %d\n", number, base1, base2);
+    base_convert(number, base1, base2);
 
     return 0;
 }
